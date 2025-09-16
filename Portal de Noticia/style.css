@@ -1,8 +1,8 @@
-{
+*{
     color: rgb(0, 0, 0);
-    margin:0%;
+    margin:0;
     box-sizing: border-box;
-    padding:0%
+    padding:0;
 }
  
 header{
@@ -56,21 +56,22 @@ header li{
     margin-top: 16px;
     margin-bottom: 16px;
 }
- 
+
 .articles article a{
     background-color: rgb(255, 0, 0);
     color: black;
     padding: 6px;
     display: inline-block;
-    text-decoration: ;
+    text-decoration: none;
 }
- 
+
 .articles article a:hover{
     text-decoration: underline;
-    background-color: rgb(234, 156, 255);
+    background-color: rgb(233, 156, 255);
 }
- 
+
 #cultura{background-color: rgb(245, 139, 0);}
+
 
 #economia{background-color: mediumseagreen;}
 #esportes{background-color: tomato;}
